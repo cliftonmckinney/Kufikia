@@ -135,12 +135,6 @@
 /* --------------------------- */
 /* - 1.1 Body typography - */
 body {
-  -ms-word-break: break-all;
-  word-break: break-all;
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -1485,7 +1479,7 @@ html[xmlns] .slides {
   width: 100%;
   top: 30%;
   left: 0;
-  margin-top: -36px;
+  margin-top: -20px;
 }
 .super-hero-unit.super-hero-light {
   text-shadow: -1px -1px 0px white;
