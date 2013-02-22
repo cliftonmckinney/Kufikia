@@ -160,7 +160,7 @@ h1 small {
 }
 
 h1.super {
-  font-size: 72px;
+  font-size: 60px;
   font-weight: 900;
   text-align: center;
   line-height: 72px;
@@ -1915,6 +1915,9 @@ ul.inline li {
   .docs-sidebar-nav.affix-bottom, .docs-sidebar-nav.affix {
     width: 17.75%;
   }
+  h1.super {
+  font-size: 40px;
+  }
 }
 /* - 9.4 Landscape phone to small desktop & porttrait tablet - */
 @media (max-width: 767px) {
@@ -1929,8 +1932,8 @@ ul.inline li {
   }
 
   h1.super {
-    font-size: 42px;
-    line-height: 50px;
+    font-size: 32px;
+    line-height: 40px;
   }
 
   h1.hyper {
@@ -2064,7 +2067,7 @@ ul.inline li {
 @media (max-width: 480px) {
   /* -- 9.5.1 Typography -- */
   h1.super {
-    font-size: 36px;
+    font-size: 28px;
     line-height: 1em;
   }
 
