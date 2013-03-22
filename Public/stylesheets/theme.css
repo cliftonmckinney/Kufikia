@@ -1512,7 +1512,13 @@ html[xmlns] .slides {
 }
 .section-header h1 small {
   font-size: inherit;
-  text-transform: uppercase;
+  text-transform: none;
+}
+
+.section-header h1 smallest {
+font-size: 70%;
+text-transform: none;
+color: gray;
 }
 .section-alt .section-header h1 {
   background-color: #f2f2f4;
