@@ -140,13 +140,13 @@ body {
 
 /* - 1.2 Headers - */
 h1, h2, h3, h4, h5 {
-  color: #222222;
+  color: #333333;
   text-transform: uppercase;
   margin: 0;
 }
 h1 small, h2 small, h3 small, h4 small, h5 small {
   text-transform: none;
-  color: #333333;
+  color: #444444;
 }
 
 h1 {
@@ -156,14 +156,14 @@ h1 {
 }
 
 h1 small {
-  font-size: 24px;
+  font-size: 14px;
 }
 
 h1.super {
   font-size: 60px;
   font-weight: 900;
-  text-align: center;
   line-height: 72px;
+  padding: 20px;
 }
 
 h1.hyper {
@@ -241,6 +241,11 @@ text-decoration: none;
 .programDescription h4{
 color: #42576a;
 text-decoration: none;
+font-size: 100%;
+}
+
+.programDescription p{
+font-size: 100%;
 }
 
 /* - 1.4 Lead text - */
@@ -457,8 +462,13 @@ body {
 }
 
 .section-alt {
-  background-color: #f2f2f4;
+  background-color: white;
 }
+
+.section-alt1 {
+background-color: #f2f2f4;
+}
+
 .section-alt:before, .section-alt:after {
   content: "";
   position: absolute;
@@ -754,7 +764,7 @@ body {
   content: "";
   height: 100%;
   width: 0px;
-  top: -40px;
+  top: 80px;
   left: 50%;
   margin-left: -2px;
   z-index: 0;
@@ -762,7 +772,7 @@ body {
 }
 #timeline:before {
   border-style: dashed;
-  top: auto;
+  top: 80px;
   bottom: -40px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -1452,6 +1462,7 @@ html[xmlns] .slides {
 }
 .super-hero-unit h1 {
   color: white;
+  text-shadow: 2px 2px 2px black;
 }
 
 }
@@ -1470,14 +1481,15 @@ html[xmlns] .slides {
 .super-hero-unit figure figcaption {
   position: absolute;
   width: 100%;
-  top: 50%;
+  top: 20%;
   left: 0;
   margin-top: -36px;
+  text-align: center;
 }
 .super-hero-unit figure figcaption-home {
   position: absolute;
   width: 100%;
-  top: 30%;
+  top: 3%;
   left: 0;
   margin-top: -20px;
 }
@@ -1504,14 +1516,14 @@ html[xmlns] .slides {
   text-align: center;
   display: inline-block;
   border-bottom: 0;
-  padding: 0 24px;
+  padding: 0 40px;
   background-color: white;
   position: relative;
   z-index: 1;
   margin-bottom: 0;
 }
 .section-header h1 small {
-  font-size: inherit;
+  font-size: 80%;
   text-transform: none;
 }
 
@@ -1521,8 +1533,17 @@ text-transform: none;
 color: gray;
 }
 .section-alt .section-header h1 {
+  background-color: white;
+}
+
+.section-alt1 .section-header h1 {
   background-color: #f2f2f4;
 }
+
+.section-alt1 h5 {
+  background-color: #f2f2f4;
+}
+
 .section-alt .section-header h2 {
   background-color: #f2f2f4;
 }
